@@ -1,0 +1,5 @@
+Faturamento acumulado por site
+      Site  Faturamento Acumulado
+AliExpress                4371.32
+      Etsy                4358.89
+    Shopee                4449.22

@@ -1,0 +1,7 @@
+Top 5 em Compras
+        Cliente  Valor Total de Compras
+ Zachary Murray                     550
+  Charles Clark                     550
+  Andrew Moreno                     500
+Dennis Gonzalez                     500
+  Judy Schwartz                     500

@@ -1,0 +1,32 @@
+Quantidade por Mes:
+      date  quantity
+2024-05-31        11
+2024-06-30        20
+2024-07-31        25
+2024-08-31        47
+2024-09-30        37
+2024-10-31        38
+
+Quantidade por Trimestre:
+      date  quantity
+2024-06-30        31
+2024-09-30       109
+2024-12-31        38
+
+Regioes de Maior Demanda:
+delivery_country  quantity
+       Australia        28
+          Canada        46
+          France        36
+         Germany        23
+           Japan        27
+              UK        13
+             USA         5
+
+Tendencias de Mercado:
+          product_sold  count
+ NEW MEGANIUM RG 40XXV     14
+   NEW MEGANIUM RG35XX     12
+   NEW MEGANIUM RG28XX     12
+NEW MEGANIUM RG CubeXX     12
+       MEGANIUM RG353M     10

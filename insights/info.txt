@@ -1,0 +1,63 @@
+Colunas:
+  - SKU
+  - product_sold
+  - date
+  - quantity
+  - unit_price
+  - total_price
+  - currency
+  - site
+  - discount_coupon
+  - discount_value
+  - buyer_birth_date
+  - buyer_name
+  - delivery_country
+  - invoice_id
+
+Tipos de Dados:
+  SKU: object
+  product_sold: object
+  date: datetime64[ns]
+  quantity: int64
+  unit_price: int64
+  total_price: int64
+  currency: object
+  site: object
+  discount_coupon: object
+  discount_value: float64
+  buyer_birth_date: datetime64[ns]
+  buyer_name: object
+  delivery_country: object
+  invoice_id: object
+
+Dados Ausentes:
+  SKU: 0
+  product_sold: 0
+  date: 0
+  quantity: 0
+  unit_price: 0
+  total_price: 0
+  currency: 0
+  site: 0
+  discount_coupon: 0
+  discount_value: 0
+  buyer_birth_date: 0
+  buyer_name: 0
+  delivery_country: 0
+  invoice_id: 0
+
+Estatísticas Descritivas:
+  SKU: {'count': 60, 'unique': 5, 'top': 'SKU-40XXV01', 'freq': 14, 'mean': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan, 'std': nan}
+  product_sold: {'count': 60, 'unique': 5, 'top': 'NEW MEGANIUM RG 40XXV', 'freq': 14, 'mean': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan, 'std': nan}
+  date: {'count': 60, 'unique': nan, 'top': nan, 'freq': nan, 'mean': Timestamp('2024-08-20 02:48:00'), 'min': Timestamp('2024-05-18 00:00:00'), '25%': Timestamp('2024-07-23 00:00:00'), '50%': Timestamp('2024-08-21 00:00:00'), '75%': Timestamp('2024-09-25 18:00:00'), 'max': Timestamp('2024-10-30 00:00:00'), 'std': nan}
+  quantity: {'count': 60.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 2.966666666666667, 'min': 1.0, '25%': 1.75, '50%': 3.0, '75%': 4.0, 'max': 5.0, 'std': 1.4840013096374438}
+  unit_price: {'count': 60.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 89.66666666666667, 'min': 70.0, '25%': 80.0, '50%': 90.0, '75%': 100.0, 'max': 110.0, 'std': 13.896306870271982}
+  total_price: {'count': 60.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 265.5, 'min': 70.0, '25%': 132.5, '50%': 275.0, '75%': 360.0, 'max': 550.0, 'std': 140.47648937739228}
+  currency: {'count': 60, 'unique': 3, 'top': 'USD', 'freq': 23, 'mean': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan, 'std': nan}
+  site: {'count': 60, 'unique': 3, 'top': 'AliExpress', 'freq': 20, 'mean': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan, 'std': nan}
+  discount_coupon: {'count': 60, 'unique': 60, 'top': 'COUPONNRpQv', 'freq': 1, 'mean': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan, 'std': nan}
+  discount_value: {'count': 60.0, 'unique': nan, 'top': nan, 'freq': nan, 'mean': 45.84283333333333, 'min': 4.16, '25%': 16.405, '50%': 35.2, '75%': 67.63000000000001, 'max': 158.09, 'std': 35.63221376700938}
+  buyer_birth_date: {'count': 60, 'unique': nan, 'top': nan, 'freq': nan, 'mean': Timestamp('1983-02-07 06:00:00'), 'min': Timestamp('1965-07-02 00:00:00'), '25%': Timestamp('1974-08-25 06:00:00'), '50%': Timestamp('1981-02-06 00:00:00'), '75%': Timestamp('1989-11-06 18:00:00'), 'max': Timestamp('2005-11-12 00:00:00'), 'std': nan}
+  buyer_name: {'count': 60, 'unique': 60, 'top': 'Timothy Flowers', 'freq': 1, 'mean': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan, 'std': nan}
+  delivery_country: {'count': 60, 'unique': 7, 'top': 'Canada', 'freq': 14, 'mean': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan, 'std': nan}
+  invoice_id: {'count': 60, 'unique': 60, 'top': 'a133114a-6d3b-44ac-a588-04028820762a', 'freq': 1, 'mean': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan, 'std': nan}
